@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddAnInterestingContent" xml:space="preserve">
+    <value>Add an interesting content.</value>
+    <comment>fcm add 的用途</comment>
+  </data>
+  <data name="AnExceptionOccurredWhileCreatingTheNewFuntxt" xml:space="preserve">
+    <value>An exception occurred while creating the new fun.txt:</value>
+    <comment>创建新的 fun.txt 时遇到异常的提示信息</comment>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Available commands</value>
+    <comment>帮助信息表的标题</comment>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Command</value>
+    <comment>命令（单数形式）</comment>
+  </data>
+  <data name="ContentToBeAdded" xml:space="preserve">
+    <value>&lt;content to be added&gt;</value>
+    <comment>fcm add 的参数说明</comment>
+  </data>
+  <data name="ContentToBeRemoved" xml:space="preserve">
+    <value>&lt;content to be removed&gt;</value>
+    <comment>fcm remove 的参数说明</comment>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Example</value>
+    <comment>示例（单数形式）</comment>
+  </data>
+  <data name="ExportAllContentToTheSpecifiedFile" xml:space="preserve">
+    <value>Export all content to the specified file.</value>
+    <comment>fcm export 的用途</comment>
+  </data>
+  <data name="FunContentManagerVersion" xml:space="preserve">
+    <value>[blue]F[/]un [blue]C[/]ontent [blue]M[/]anager version</value>
+    <comment>版本信息的开头</comment>
+  </data>
+  <data name="FunTxtIsEmpty" xml:space="preserve">
+    <value>fun.txt is empty.</value>
+    <comment>fun.txt 为空时的提示信息</comment>
+  </data>
+  <data name="FunTxtNotFound" xml:space="preserve">
+    <value>fun.txt not found.</value>
+    <comment>未找到 fun.txt 的错误提示</comment>
+  </data>
+  <data name="FunTxtNotFoundANewOneWillBeCreated" xml:space="preserve">
+    <value>fun.txt not found, a new one will be created.</value>
+    <comment>未找到 fun.txt，准备创建一个新的时的提示信息</comment>
+  </data>
+  <data name="ImportTheContentsOfTheSpecifiedFile" xml:space="preserve">
+    <value>Import the contents of the specified file.</value>
+    <comment>fcm import 的用途</comment>
+  </data>
+  <data name="IsAlreadyInFunTxt" xml:space="preserve">
+    <value>is already in fun.txt.</value>
+    <comment>fcm add 时内容已在 fun.txt 中时的提示，前面为内容文本。</comment>
+  </data>
+  <data name="IsNotInFunTxt" xml:space="preserve">
+    <value>is not in fun.txt.</value>
+    <comment>fcm remove 时内容不在 fun.txt 中时的提示，前面为内容文本。</comment>
+  </data>
+  <data name="ListAllInterestingContent" xml:space="preserve">
+    <value>List all interesting content.</value>
+    <comment>fcm list 的用途</comment>
+  </data>
+  <data name="NoArguments" xml:space="preserve">
+    <value>No arguments</value>
+    <comment>无参数</comment>
+  </data>
+  <data name="OpenFunTxt" xml:space="preserve">
+    <value>Open fun.txt</value>
+    <comment>fcm open 的用途</comment>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameters</value>
+    <comment>形参（复数形式）</comment>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="RandomlyOutputAnInterestingContent" xml:space="preserve">
+    <value>Randomly output an interesting content.</value>
+    <comment>fcm get 的用途</comment>
+  </data>
+  <data name="RemoveAnInterestingContent" xml:space="preserve">
+    <value>Remove an interesting content.</value>
+    <comment>fcm remove 的用途</comment>
+  </data>
+  <data name="RemoveDuplicateLinesFromTheContent" xml:space="preserve">
+    <value>Remove duplicate lines from the content.</value>
+    <comment>fcm dup 的用途</comment>
+  </data>
+  <data name="SearchContentBasedOnTheSpecifiedKeyword" xml:space="preserve">
+    <value>Search content based on the specified keyword.</value>
+    <comment>fcm search 的用途</comment>
+  </data>
+  <data name="SearchKeyword" xml:space="preserve">
+    <value>&lt;search keyword&gt;</value>
+    <comment>fcm search 的参数说明</comment>
+  </data>
+  <data name="ShowThisHelpTable" xml:space="preserve">
+    <value>Show this help table.</value>
+    <comment>fcm --help 的用途</comment>
+  </data>
+  <data name="ShowVersionInformation" xml:space="preserve">
+    <value>Show version information.</value>
+    <comment>fcm --version 的用途</comment>
+  </data>
+  <data name="HasBeenAddedToFunTxt" xml:space="preserve">
+    <value>{0} has been added to fun.txt.</value>
+    <comment>fcm add 的成功提示</comment>
+  </data>
+  <data name="HasBeenRemovedFromFunTxt" xml:space="preserve">
+    <value>{0} has been removed from fun.txt.</value>
+    <comment>fcm remove 的成功提示</comment>
+  </data>
+  <data name="TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+    <value>The location of the files that need to be deduplicated; leave blank for the default location.</value>
+    <comment>fcm dup 的参数说明</comment>
+  </data>
+  <data name="ThePathOfTheFileToBeExportedTo" xml:space="preserve">
+    <value>&lt;the path of the file to be exported to&gt;</value>
+    <comment>fcm export 的参数说明</comment>
+  </data>
+  <data name="ThePathOfTheFileToBeImported" xml:space="preserve">
+    <value>&lt;the path of the file to be imported&gt;</value>
+    <comment>fcm import 的参数说明</comment>
+  </data>
+  <data name="DoesNotExist" xml:space="preserve">
+    <value>{0} does not exist.</value>
+    <comment>fcm dup 或 import 时指定的文件不存在的提示</comment>
+  </data>
+  <data name="SuccessfullyDeduplicatedFor" xml:space="preserve">
+    <value>Successfully deduplicated for {0}.</value>
+    <comment>fcm dup 的成功提示</comment>
+  </data>
+  <data name="AnExceptionOccurredWhenDeduplicatingFile" xml:space="preserve">
+    <value>An exception occurred when deduplicating {0}:</value>
+    <comment>fcm dup 时遇到异常的错误提示</comment>
+  </data>
+  <data name="AnExceptionOccurredWhileOpeningFunTxt" xml:space="preserve">
+    <value>An exception occurred while opening fun.txt:</value>
+    <comment>fcm open 遇到异常时的错误提示</comment>
+  </data>
+  <data name="PleaseTellMeWhereYouWantToExportTo" xml:space="preserve">
+    <value>Please tell me where you want to export to.</value>
+    <comment>fcm export 未传递参数时的错误信息</comment>
+  </data>
+  <data name="SuccessfullyExportedFunTxtTo" xml:space="preserve">
+    <value>Successfully exported fun.txt to {0}.</value>
+    <comment>fcm export 的成功提示</comment>
+  </data>
+  <data name="AnExceptionOccurredWhileExportingFunTxt" xml:space="preserve">
+    <value>An exception occurred while exporting fun.txt:</value>
+    <comment>fcm export 时遇到异常的错误信息</comment>
+  </data>
+  <data name="PleaseTellMeWhichFileYouWantToImport" xml:space="preserve">
+    <value>Please tell me which file you want to import.</value>
+    <comment>fcm import 未传递参数时的错误信息</comment>
+  </data>
+  <data name="SuccessfullyImported" xml:space="preserve">
+    <value>Successfully imported {0}.</value>
+    <comment>fcm import 的成功提示</comment>
+  </data>
+  <data name="PleaseTellMeWhatYouWantToSearch" xml:space="preserve">
+    <value>Please tell me what you want to search.</value>
+    <comment>fcm search 未传递参数时的错误信息</comment>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="NoValidKeywords" xml:space="preserve">
+    <value>No valid keywords.</value>
+    <comment>fcm search 时没有传递有效的关键词时的错误信息</comment>
+  </data>
+</root>

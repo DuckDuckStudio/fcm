@@ -2,6 +2,11 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: 版本号 (不带v)
+        required: true
+        default: 2.3.3
   release:
     types: [published]
 
@@ -26,25 +31,15 @@ jobs:
       - name: 更新版本号
         shell: bash
         run: |-
-          if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
-            $version = "$env:GITHUB_EVENT_INPUTS_VERSION"
-            # 如果版本号以 v 开头，则去掉 v
-            if ($version.StartsWith("v")) {
-              $version = $version.Substring(1)
-            }
-          } else {
-            $version = "$env:GITHUB_REF_NAME"
-            # 如果版本号以 refs/tags/ 开头，则去掉 refs/tags/
-            if ($version.StartsWith("refs/tags/")) {
-              $version = $version.Substring(10)
-            }
-            # 如果版本号以 v 开头，则去掉 v
-            if ($version.StartsWith("v")) {
-              $version = $version.Substring(1)
-            }
-          }
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            version="${GITHUB_EVENT_INPUTS_VERSION#v}"
+          else
+            version="${GITHUB_REF_NAME#refs/tags/}"
+            version="${version#v}"
+          fi
           echo "版本号: $version"
           sed -i "s/^\([[:space:]]*internal const string VERSION = \)\".*\";/\1\"$version\";/" fcm/Commands/Version.cs
+          cat fcm/Commands/Version.cs
 
       - name: 发布
         run: dotnet publish fcm --configuration Release

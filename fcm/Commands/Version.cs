@@ -5,7 +5,10 @@ namespace fcm.Commands
 {
     internal class Version
     {
-        internal const string VERSION = "2026.3.30.1547";
+        /// <summary>
+        /// fcm 的版本号，该版本号在发布时通过工作流修改。
+        /// </summary>
+        internal const string VERSION = "develop";
 
         /// <summary>
         /// 显示 fcm 的版本信息

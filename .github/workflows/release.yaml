@@ -2,6 +2,11 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: 版本号 (不带v)
+        required: true
+        default: 2.3.3
   release:
     types: [published]
 

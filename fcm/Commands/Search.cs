@@ -41,7 +41,7 @@ namespace fcm.Commands
                     continue;
                 }
 
-                if (!filteredKeywords.All(k => line.Contains(k)))
+                if (!filteredKeywords.All(k => line.Contains(k.Replace("\n", "\\n"))))
                 {
                     continue;
                 }

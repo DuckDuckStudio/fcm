@@ -18,16 +18,17 @@ namespace fcm.Commands
 
             foreach (string fun in funs)
             {
-                if (funFile.Contains(fun))
+                string normalizedfun = fun.Replace("\n", "\\n");
+                if (funFile.Contains(normalizedfun))
                 {
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Markup.Escape(fun)} {Strings.IsAlreadyInFunTxt}");
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Markup.Escape(normalizedfun)} {Strings.IsAlreadyInFunTxt}");
                     continue;
                 }
                 else
                 {
                     isAdded = true;
-                    funFile.Add(fun);
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.HasBeenAddedToFunTxt, Markup.Escape(fun))}");
+                    funFile.Add(normalizedfun);
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.HasBeenAddedToFunTxt, Markup.Escape(normalizedfun))}");
                 }
             }
 

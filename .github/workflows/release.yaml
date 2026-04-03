@@ -30,6 +30,8 @@ jobs:
 
       - name: 更新版本号
         shell: bash
+        env:
+          GITHUB_EVENT_INPUTS_VERSION: ${{ github.event.inputs.version }}
         run: |-
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
             version="${GITHUB_EVENT_INPUTS_VERSION#v}"
@@ -38,8 +40,12 @@ jobs:
             version="${version#v}"
           fi
           echo "版本号: $version"
+
           sed -i "s/^\([[:space:]]*internal const string VERSION = \)\".*\";/\1\"$version\";/" fcm/Commands/Version.cs
           cat fcm/Commands/Version.cs
+
+          sed -i "s/^\(AppVersion=\).*/\1$version/" installer.iss
+          cat installer.iss
 
       - name: 发布
         run: dotnet publish fcm --configuration Release

@@ -1,6 +1,6 @@
 [Setup]
 AppName=Fun Content Manager
-AppVersion=1.0.0
+AppVersion=develop
 DefaultDirName={pf}\DuckStudio\FunContentManager
 VersionInfoCopyright=版权所有 (c) 2026 鸭鸭「カモ」
 LicenseFile=LICENSE.txt

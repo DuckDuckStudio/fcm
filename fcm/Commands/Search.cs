@@ -46,8 +46,8 @@ namespace fcm.Commands
                     continue;
                 }
 
-                string pattern = string.Join("|", filteredKeywords.Select(Regex.Escape));
-                string result = Regex.Replace(line, pattern, match => $"[blue]{match.Value}[/]");
+                string pattern = string.Join("|", filteredKeywords.Select(keyword => Regex.Escape(Markup.Escape(keyword))));
+                string result = Regex.Replace(Markup.Escape(line), pattern, match => $"[blue]{match.Value}[/]");
                 table.AddRow(result.Replace("\\n", "\n"));
             }
 

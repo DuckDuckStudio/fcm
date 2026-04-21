@@ -1,5 +1,5 @@
 ﻿// =================================================
-// 本文件代码来自 DuckStudio.CatFood 项目，依照 Apche-2.0 许可证简化后使用。
+// 本文件代码来自 DuckStudio.CatFood 项目，依照 Apache-2.0 许可证简化后使用。
 // 原项目许可证链接：https://github.com/DuckDuckStudio/DuckStudio.CatFood/blob/main/LICENSE
 // =================================================
 

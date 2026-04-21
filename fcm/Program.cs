@@ -40,7 +40,7 @@
                 case "import":
                     return fcm.Commands.Import.ImportFun(toolArgs);
                 case "export":
-                    return fcm .Commands.Export.ExportFunTxt(toolArgs);
+                    return fcm.Commands.Export.ExportFunTxt(toolArgs);
                 case "open":
                 case "edit":
                     return fcm.Commands.Open.OpenFun();

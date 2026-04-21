@@ -1,5 +1,5 @@
-﻿using fcm.Resources;
-using fcm.Functions;
+﻿using fcm.Functions;
+using fcm.Resources;
 using Spectre.Console;
 
 namespace fcm.Commands

@@ -22,7 +22,7 @@
             switch (tool)
             {
                 case "get":
-                case "radom":
+                case "random":
                 case "": // 默认
                     return fcm.Commands.Get.GetFun();
                 case "add":

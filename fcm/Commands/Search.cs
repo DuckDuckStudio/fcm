@@ -51,8 +51,16 @@ namespace fcm.Commands
                 table.AddRow(result.Replace("\\n", "\n"));
             }
 
-            AnsiConsole.Write(table);
-            AnsiConsole.MarkupLine($"{Print.MSHead.Success} 共找到 {table.Rows.Count} 个内容。");
+            if (table.Rows.Count > 0)
+            {
+                AnsiConsole.Write(table);
+                AnsiConsole.MarkupLine($"{Print.MSHead.Success} 共找到 {table.Rows.Count} 个内容。");
+            }
+            else
+            {
+                AnsiConsole.MarkupLine($"{Print.MSHead.Warning} 没有找到匹配的内容");
+            }
+
             return 0;
         }
     }

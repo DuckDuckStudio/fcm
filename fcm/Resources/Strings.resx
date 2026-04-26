@@ -291,4 +291,12 @@
     <value>No valid keywords.</value>
     <comment>fcm search 时没有传递有效的关键词时的错误信息</comment>
   </data>
+  <data name="ATotalOfNResultsWereFound" xml:space="preserve">
+    <value>A total of {0} results were found.</value>
+    <comment>fcm search 的结果提示信息</comment>
+  </data>
+  <data name="NoMatchingContentWasFound" xml:space="preserve">
+    <value>No matching content was found.</value>
+    <comment>fcm search 没有找到匹配的内容时的提示</comment>
+  </data>
 </root>

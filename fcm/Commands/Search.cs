@@ -32,7 +32,7 @@ namespace fcm.Commands
             Table table = new Table().ShowRowSeparators()
                                      .Border(TableBorder.Simple)
                                      .HideHeaders()
-                                     .AddColumn("结果");
+                                     .AddColumn(Strings.Result);
 
             foreach (string line in File.ReadLines(Files.FUN_TXT_PATH, System.Text.Encoding.UTF8))
             {
@@ -54,11 +54,11 @@ namespace fcm.Commands
             if (table.Rows.Count > 0)
             {
                 AnsiConsole.Write(table);
-                AnsiConsole.MarkupLine($"{Print.MSHead.Success} 共找到 {table.Rows.Count} 个内容。");
+                AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.ATotalOfNResultsWereFound, table.Rows.Count)}");
             }
             else
             {
-                AnsiConsole.MarkupLine($"{Print.MSHead.Warning} 没有找到匹配的内容");
+                AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Strings.NoMatchingContentWasFound}");
             }
 
             return 0;

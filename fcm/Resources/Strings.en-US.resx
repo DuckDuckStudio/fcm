@@ -249,4 +249,10 @@
   <data name="NoValidKeywords" xml:space="preserve">
     <value>No valid keywords.</value>
   </data>
+  <data name="ATotalOfNResultsWereFound" xml:space="preserve">
+    <value>A total of {0} results were found.</value>
+  </data>
+  <data name="NoMatchingContentWasFound" xml:space="preserve">
+    <value>No matching content was found.</value>
+  </data>
 </root>

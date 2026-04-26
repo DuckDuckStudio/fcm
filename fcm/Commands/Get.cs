@@ -1,4 +1,5 @@
 ﻿using fcm.Functions;
+using fcm.Resources;
 using Spectre.Console;
 
 namespace fcm.Commands
@@ -43,7 +44,7 @@ namespace fcm.Commands
             // 这里加进来只是为了消除 CS8602
             if ((lineCount == 0) || (selectedLine is null))
             {
-                AnsiConsole.WriteLine($"{Print.MSHead.Error} fun.txt 为空");
+                AnsiConsole.WriteLine($"{Print.MSHead.Error} {Strings.FunTxtIsEmpty}");
                 return 1;
             }
 

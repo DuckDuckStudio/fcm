@@ -249,4 +249,10 @@
   <data name="NoValidKeywords" xml:space="preserve">
     <value>没有有效的关键词。</value>
   </data>
+  <data name="ATotalOfNResultsWereFound" xml:space="preserve">
+    <value>共找到 {0} 个结果。</value>
+  </data>
+  <data name="NoMatchingContentWasFound" xml:space="preserve">
+    <value>没有找到匹配的内容。</value>
+  </data>
 </root>

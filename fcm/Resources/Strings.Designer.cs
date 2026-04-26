@@ -106,6 +106,15 @@ namespace fcm.Resources {
         }
         
         /// <summary>
+        ///   查找类似 A total of {0} results were found. 的本地化字符串。
+        /// </summary>
+        internal static string ATotalOfNResultsWereFound {
+            get {
+                return ResourceManager.GetString("ATotalOfNResultsWereFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Available commands 的本地化字符串。
         /// </summary>
         internal static string AvailableCommands {
@@ -264,6 +273,15 @@ namespace fcm.Resources {
         internal static string NoArguments {
             get {
                 return ResourceManager.GetString("NoArguments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 No matching content was found. 的本地化字符串。
+        /// </summary>
+        internal static string NoMatchingContentWasFound {
+            get {
+                return ResourceManager.GetString("NoMatchingContentWasFound", resourceCulture);
             }
         }
         

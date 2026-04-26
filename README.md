@@ -1,5 +1,7 @@
 # 有趣的内容管理器
 
+> <p style="text-align: center"><a href="/docs/en/README.md">English</a></p>
+
 管理你的有趣的内容。
 
 ## 安装
@@ -61,7 +63,7 @@ nano ~/.bashrc
 
 ## 使用
 
-你可以先导入一份仓库中的 fun.txt:  
+你可以先导入一份仓库中的 [fun.txt](/fun.txt):  
 ```shell
 # 假设你已经克隆并 cd 进仓库目录
 fcm import fun.txt

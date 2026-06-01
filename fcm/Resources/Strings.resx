@@ -299,4 +299,20 @@
     <value>No matching content was found.</value>
     <comment>fcm search 没有找到匹配的内容时的提示</comment>
   </data>
+  <data name="AnExceptionOccurredWhenSortingFile" xml:space="preserve">
+    <value>An exception occurred when sorting {0}:</value>
+    <comment>fcm sort 时遇到异常的错误提示</comment>
+  </data>
+  <data name="SuccessfullySortedFor" xml:space="preserve">
+    <value>Successfully sorted for {0}.</value>
+    <comment>fcm sort 的成功提示</comment>
+  </data>
+  <data name="SortTheContent" xml:space="preserve">
+    <value>Sort the content.</value>
+    <comment>fcm sort 的用途</comment>
+  </data>
+  <data name="TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+    <value>The location of the files that need to have their content sorted; leave blank for the default location.</value>
+    <comment>fcm sort 的参数说明</comment>
+  </data>
 </root>

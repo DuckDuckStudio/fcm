@@ -79,6 +79,15 @@ namespace fcm.Resources {
         }
         
         /// <summary>
+        ///   查找类似 An exception occurred when sorting {0}: 的本地化字符串。
+        /// </summary>
+        internal static string AnExceptionOccurredWhenSortingFile {
+            get {
+                return ResourceManager.GetString("AnExceptionOccurredWhenSortingFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 An exception occurred while creating the new fun.txt: 的本地化字符串。
         /// </summary>
         internal static string AnExceptionOccurredWhileCreatingTheNewFuntxt {
@@ -421,6 +430,15 @@ namespace fcm.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Sort the content. 的本地化字符串。
+        /// </summary>
+        internal static string SortTheContent {
+            get {
+                return ResourceManager.GetString("SortTheContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Successfully deduplicated for {0}. 的本地化字符串。
         /// </summary>
         internal static string SuccessfullyDeduplicatedFor {
@@ -444,6 +462,25 @@ namespace fcm.Resources {
         internal static string SuccessfullyImported {
             get {
                 return ResourceManager.GetString("SuccessfullyImported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Successfully sorted for {0}. 的本地化字符串。
+        /// </summary>
+        internal static string SuccessfullySortedFor {
+            get {
+                return ResourceManager.GetString("SuccessfullySortedFor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The location of the files that need to have their content sorted; leave blank for the default location. 的本地化字符串。
+        /// </summary>
+        internal static string TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation {
+            get {
+                return ResourceManager.GetString("TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLoca" +
+                        "tion", resourceCulture);
             }
         }
         

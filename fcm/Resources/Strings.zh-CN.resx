@@ -255,4 +255,16 @@
   <data name="NoMatchingContentWasFound" xml:space="preserve">
     <value>没有找到匹配的内容。</value>
   </data>
+  <data name="AnExceptionOccurredWhenSortingFile" xml:space="preserve">
+    <value>对 {0} 排序时出现异常:</value>
+  </data>
+  <data name="SuccessfullySortedFor" xml:space="preserve">
+    <value>成功对 {0} 排序。</value>
+  </data>
+  <data name="SortTheContent" xml:space="preserve">
+    <value>对内容排序</value>
+  </data>
+  <data name="TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+    <value>需要对内容排序的文件的所在位置；留空为默认位置。</value>
+  </data>
 </root>

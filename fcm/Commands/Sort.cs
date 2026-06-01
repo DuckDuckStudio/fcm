@@ -36,11 +36,11 @@ namespace fcm.Commands
                     File.WriteAllLines(filePath, fileLines);
 
                     isSorted = true;
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format("成功对 {0} 排序", Markup.Escape(filePath))}");
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.SuccessfullySortedFor, Markup.Escape(filePath))}");
                 }
                 catch (Exception ex)
                 {
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Error} {string.Format("对 {0} 排序时出现异常:", Markup.Escape(filePath))} {Markup.Escape(ex.Message)}");
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Error} {string.Format(Strings.AnExceptionOccurredWhenSortingFile, Markup.Escape(filePath))} {Markup.Escape(ex.Message)}");
                 }
             }
 

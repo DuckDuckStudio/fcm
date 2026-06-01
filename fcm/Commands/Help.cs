@@ -68,8 +68,8 @@ namespace fcm.Commands
                     "fcm dep fun.txt"
                 ).AddRow(
                     "sort / order",
-                    "对内容排序",
-                    "需要排序的文件的所在位置；留空为默认位置。",
+                    Strings.SortTheContent,
+                    Strings.TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation,
                     "fcm sort fun.txt"
                 ).AddRow(
                     "--version",

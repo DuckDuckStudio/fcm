@@ -204,7 +204,7 @@
   <data name="HasBeenRemovedFromFunTxt" xml:space="preserve">
     <value>{0} has been removed from fun.txt.</value>
   </data>
-  <data name="TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+  <data name="TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
     <value>The location of the files that need to be deduplicated; leave blank for the default location.</value>
   </data>
   <data name="ThePathOfTheFileToBeExportedTo" xml:space="preserve">

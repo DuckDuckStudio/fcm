@@ -487,9 +487,9 @@ namespace fcm.Resources {
         /// <summary>
         ///   查找类似 The location of the files that need to be deduplicated; leave blank for the default location. 的本地化字符串。
         /// </summary>
-        internal static string TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation {
+        internal static string TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation {
             get {
-                return ResourceManager.GetString("TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation", resourceCulture);
+                return ResourceManager.GetString("TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation", resourceCulture);
             }
         }
         

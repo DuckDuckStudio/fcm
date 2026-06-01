@@ -64,7 +64,7 @@ namespace fcm.Commands
                 ).AddRow(
                     "dep / ded / dup",
                     Strings.RemoveDuplicateLinesFromTheContent,
-                    Strings.TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation,
+                    Strings.TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation,
                     "fcm dep fun.txt"
                 ).AddRow(
                     "sort / order",

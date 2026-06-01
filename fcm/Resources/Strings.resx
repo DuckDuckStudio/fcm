@@ -232,7 +232,7 @@
     <value>{0} has been removed from fun.txt.</value>
     <comment>fcm remove 的成功提示</comment>
   </data>
-  <data name="TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+  <data name="TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
     <value>The location of the files that need to be deduplicated; leave blank for the default location.</value>
     <comment>fcm dup 的参数说明</comment>
   </data>

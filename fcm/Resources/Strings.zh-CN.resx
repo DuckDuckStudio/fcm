@@ -204,7 +204,7 @@
   <data name="HasBeenRemovedFromFunTxt" xml:space="preserve">
     <value>已从 fun.txt 中移除 {0}。</value>
   </data>
-  <data name="TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
+  <data name="TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation" xml:space="preserve">
     <value>需要去重的文件的所在位置；留空为默认位置。</value>
   </data>
   <data name="ThePathOfTheFileToBeExportedTo" xml:space="preserve">

@@ -67,6 +67,11 @@ namespace fcm.Commands
                     Strings.TheLocationOfTheFileThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation,
                     "fcm dep fun.txt"
                 ).AddRow(
+                    "sort / order",
+                    "对内容排序",
+                    "需要排序的文件的所在位置；留空为默认位置。",
+                    "fcm sort fun.txt"
+                ).AddRow(
                     "--version",
                     Strings.ShowVersionInformation,
                     "/",

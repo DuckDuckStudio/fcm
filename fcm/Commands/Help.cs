@@ -67,6 +67,11 @@ namespace fcm.Commands
                     Strings.TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation,
                     "fcm dep fun.txt"
                 ).AddRow(
+                    "sort / order",
+                    Strings.SortTheContent,
+                    Strings.TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation,
+                    "fcm sort fun.txt"
+                ).AddRow(
                     "--version",
                     Strings.ShowVersionInformation,
                     "/",

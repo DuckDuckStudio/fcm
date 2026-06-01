@@ -48,6 +48,9 @@
                 case "ded":
                 case "dup":
                     return fcm.Commands.Deduplicate.FilesDeduplicate(toolArgs);
+                case "order":
+                case "sort":
+                    return fcm.Commands.Sort.FilesSort(toolArgs);
                 case "--version":
                     return fcm.Commands.Version.ShowVersion();
                 default:

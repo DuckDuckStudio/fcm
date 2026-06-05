@@ -16,7 +16,6 @@ namespace fcm.Commands
         /// <summary>
         /// 打开指定的文件
         /// </summary>
-        /// <param name="filePath">需要打开的文件的路径</param>
         /// <exception cref="FileNotFoundException"></exception>
         internal static int OpenFun()
         {

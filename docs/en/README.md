@@ -25,7 +25,7 @@ winget install --id DuckStudio.FCM -s winget -e
 
 ```shell
 git clone https://github.com/DuckDuckStudio/fcm.git # Add the "-b <version>" parameter to specify the version
-cd fcm/
+cd src/fcm/
 ```
 
 #### Compiles FCM
@@ -47,14 +47,14 @@ For fish:
 ```shell
 nano ~/.config/fish/config.fish
 # Add the following code
-# set -gx PATH "/path/to/repo/fcm/fcm/bin/Release/net10.0/linux-x64/publish/" $PATH
+# set -gx PATH "/path/to/repo/fcm/src/fcm/bin/Release/net10.0/linux-x64/publish/" $PATH
 ```
 
 For bash:
 ```bash
 nano ~/.bashrc
 # Add the following code
-# export PATH="/path/to/repo/fcm/fcm/bin/Release/net10.0/linux-x64/publish/:$PATH"
+# export PATH="/path/to/repo/fcm/src/fcm/bin/Release/net10.0/linux-x64/publish/:$PATH"
 ```
 
 Then reload the configuration with the `source` command.

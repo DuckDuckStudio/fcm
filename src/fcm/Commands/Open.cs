@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 namespace fcm.Commands
 {
-    internal class Open
+    internal static class Open
     {
         /// <summary>
         /// 在 Linux 上打开文件的一些工具。

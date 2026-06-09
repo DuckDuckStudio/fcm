@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Add
+    internal static class Add
     {
         /// <summary>
         /// 添加参数中的每个有趣的内容到 fun.txt 中

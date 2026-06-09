@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Export
+    internal static class Export
     {
         internal static int ExportFunTxt(string[] paths)
         {

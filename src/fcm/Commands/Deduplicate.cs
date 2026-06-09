@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Deduplicate
+    internal static class Deduplicate
     {
         /// <summary>
         /// 对指定的内容去重

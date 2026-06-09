@@ -3,7 +3,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Version
+    internal static class Version
     {
         /// <summary>
         /// fcm 的版本号，该版本号在发布时通过工作流修改。

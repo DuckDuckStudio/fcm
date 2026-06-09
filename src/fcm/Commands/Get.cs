@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Get
+    internal static class Get
     {
         /// <summary>
         /// 随机获取一个好玩的

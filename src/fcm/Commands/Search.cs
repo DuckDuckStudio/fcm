@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace fcm.Commands
 {
-    internal class Search
+    internal static class Search
     {
         /// <summary>
         /// 依据指定的关键词搜索有趣的内容

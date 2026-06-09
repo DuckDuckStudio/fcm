@@ -3,7 +3,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Help
+    internal static class Help
     {
         /// <summary>
         /// 显示 fcm 的帮助信息

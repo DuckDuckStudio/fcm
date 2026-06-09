@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class List
+    internal static class List
     {
         /// <summary>
         /// 读取并显示 fun.txt 中的所有内容。

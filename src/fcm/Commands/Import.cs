@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Import
+    internal static class Import
     {
         internal static int ImportFun(string[] paths)
         {

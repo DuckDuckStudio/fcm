@@ -44,14 +44,7 @@ namespace fcm.Commands
                 }
             }
 
-            if (isSorted)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
+            return isSorted ? 0 : 1;
         }
     }
 }

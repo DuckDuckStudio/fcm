@@ -78,14 +78,7 @@ namespace fcm.Commands
                 }
             }
 
-            if (isDeduplicated)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
+            return isDeduplicated ? 0 : 1;
         }
     }
 }

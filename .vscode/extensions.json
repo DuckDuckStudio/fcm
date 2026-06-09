@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "chouzz.vscode-innosetup",
-        "ms-dotnettools.csharp"
+        "chouzz.vscode-innosetup"
     ]
 }

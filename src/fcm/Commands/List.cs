@@ -21,13 +21,13 @@ namespace fcm.Commands
             if (string.IsNullOrWhiteSpace(content))
             {
                 AnsiConsole.MarkupLine($"{Print.MSHead.Hint} {Strings.FunTxtIsEmpty}");
-                return 0;
             }
             else
             {
                 Console.WriteLine(content);
-                return 0;
             }
+
+            return 0;
         }
     }
 }

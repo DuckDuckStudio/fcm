@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "fcm": {
-      "commandName": "Project",
-      "commandLineArgs": "add \"[TEST]\""
-    }
-  }
-}

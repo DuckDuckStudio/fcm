@@ -41,14 +41,14 @@ jobs:
           fi
           echo "版本号: $version"
 
-          sed -i "s/^\([[:space:]]*internal const string VERSION = \)\".*\";/\1\"$version\";/" fcm/Commands/Version.cs
-          cat fcm/Commands/Version.cs
+          sed -i "s/^\([[:space:]]*internal const string VERSION = \)\".*\";/\1\"$version\";/" src/fcm/Commands/Version.cs
+          cat src/fcm/Commands/Version.cs
 
           sed -i "s/^\(AppVersion=\).*/\1$version/" installer.iss
           cat installer.iss
 
       - name: 发布
-        run: dotnet publish fcm --configuration Release
+        run: dotnet publish src/fcm/fcm.csproj --configuration Release
 
       - name: 打包安装程序
         shell: bash

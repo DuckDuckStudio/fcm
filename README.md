@@ -25,7 +25,7 @@ winget install --id DuckStudio.FCM -s winget -e
 
 ```shell
 git clone https://github.com/DuckDuckStudio/fcm.git # 添加 "-b <版本号>" 参数指定版本
-cd fcm/
+cd src/fcm/
 ```
 
 #### 生成项目
@@ -47,14 +47,14 @@ dotnet publish fcm --configuration Release --os linux -p:PublishSingleFile=true 
 ```shell
 nano ~/.config/fish/config.fish
 # 添加以下代码
-# set -gx PATH "/path/to/repo/fcm/fcm/bin/Release/net10.0/linux-x64/publish/" $PATH
+# set -gx PATH "/path/to/repo/fcm/src/fcm/bin/Release/net10.0/linux-x64/publish/" $PATH
 ```
 
 对于 bash:
 ```bash
 nano ~/.bashrc
 # 添加以下代码
-# export PATH="/path/to/repo/fcm/fcm/bin/Release/net10.0/linux-x64/publish/:$PATH"
+# export PATH="/path/to/repo/fcm/src/fcm/bin/Release/net10.0/linux-x64/publish/:$PATH"
 ```
 
 然后用 `source` 命令重新加载配置。

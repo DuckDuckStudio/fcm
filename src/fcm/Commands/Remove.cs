@@ -28,7 +28,6 @@ namespace fcm.Commands
                 else
                 {
                     AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Markup.Escape(normalizedfun)} {Strings.IsNotInFunTxt}");
-                    continue;
                 }
             }
 

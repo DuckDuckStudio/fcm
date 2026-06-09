@@ -22,7 +22,6 @@ namespace fcm.Commands
                 if (funFile.Contains(normalizedfun))
                 {
                     AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Markup.Escape(normalizedfun)} {Strings.IsAlreadyInFunTxt}");
-                    continue;
                 }
                 else
                 {

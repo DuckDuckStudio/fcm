@@ -15,13 +15,7 @@ namespace fcm.Commands
         {
             HashSet<string> seen = [];
             List<string> deduplicatedContent = [];
-            foreach (string line in content)
-            {
-                if (seen.Add(line))
-                {
-                    deduplicatedContent.Add(line);
-                }
-            }
+            deduplicatedContent.AddRange(content.Where(seen.Add));
             return [.. deduplicatedContent];
         }
 
@@ -34,13 +28,7 @@ namespace fcm.Commands
         {
             HashSet<string> seen = [];
             List<string> deduplicatedContent = [];
-            foreach (string line in content)
-            {
-                if (seen.Add(line))
-                {
-                    deduplicatedContent.Add(line);
-                }
-            }
+            deduplicatedContent.AddRange(content.Where(seen.Add));
             return deduplicatedContent;
         }
 

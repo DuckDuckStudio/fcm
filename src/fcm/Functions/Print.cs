@@ -5,7 +5,7 @@
 
 namespace fcm.Functions
 {
-    public class Print
+    public static class Print
     {
         /// <summary>
         /// 消息头类

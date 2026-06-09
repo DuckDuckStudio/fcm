@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Get
+    internal static class Get
     {
         /// <summary>
         /// 随机获取一个好玩的
@@ -29,8 +29,7 @@ namespace fcm.Commands
 
             using (StreamReader reader = new(Files.FUN_TXT_PATH))
             {
-                string? line;
-                while ((line = reader.ReadLine()) != null)
+                while (reader.ReadLine() is { } line)
                 {
                     lineCount++;
                     if (random.Next(lineCount) == 0)

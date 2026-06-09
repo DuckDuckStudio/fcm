@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Remove
+    internal static class Remove
     {
         /// <summary>
         /// 从 fun.txt 中移除参数中的每个有趣的内容。
@@ -28,7 +28,6 @@ namespace fcm.Commands
                 else
                 {
                     AnsiConsole.MarkupLine($"{Print.MSHead.Warning} {Markup.Escape(normalizedfun)} {Strings.IsNotInFunTxt}");
-                    continue;
                 }
             }
 

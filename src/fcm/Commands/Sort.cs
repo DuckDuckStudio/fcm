@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace fcm.Commands
 {
-    internal class Sort
+    internal static class Sort
     {
         internal static int FilesSort(string[] filePaths)
         {
@@ -44,14 +44,7 @@ namespace fcm.Commands
                 }
             }
 
-            if (isSorted)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
+            return isSorted ? 0 : 1;
         }
     }
 }

@@ -3,7 +3,7 @@ using Spectre.Console;
 
 namespace fcm.Functions
 {
-    internal class Files
+    internal static class Files
     {
         /// <summary>
         /// fun.txt 的所在位置

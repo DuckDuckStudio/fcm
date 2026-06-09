@@ -2,7 +2,7 @@
 {
     internal static class Program
     {
-        static int Main(string[] args)
+        private static int Main(string[] args)
         {
             string tool;
             string[] toolArgs;

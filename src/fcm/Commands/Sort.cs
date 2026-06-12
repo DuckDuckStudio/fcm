@@ -36,7 +36,7 @@ namespace fcm.Commands
                     File.WriteAllLines(filePath, fileLines);
 
                     isSorted = true;
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.SuccessfullySortedFor, Markup.Escape(filePath))}");
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.SuccessfullySorted, Markup.Escape(filePath))}");
                 }
                 catch (Exception ex)
                 {

@@ -216,8 +216,8 @@
   <data name="DoesNotExist" xml:space="preserve">
     <value>{0} 不存在。</value>
   </data>
-  <data name="SuccessfullyDeduplicatedFor" xml:space="preserve">
-    <value>成功对 {0} 去重。</value>
+  <data name="SuccessfullyDeduplicated" xml:space="preserve">
+    <value>成功去重 {0}。</value>
   </data>
   <data name="AnExceptionOccurredWhenDeduplicatingFile" xml:space="preserve">
     <value>对 {0} 去重时出现异常:</value>
@@ -258,8 +258,8 @@
   <data name="AnExceptionOccurredWhenSortingFile" xml:space="preserve">
     <value>对 {0} 排序时出现异常:</value>
   </data>
-  <data name="SuccessfullySortedFor" xml:space="preserve">
-    <value>成功对 {0} 排序。</value>
+  <data name="SuccessfullySorted" xml:space="preserve">
+    <value>成功排序 {0}。</value>
   </data>
   <data name="SortTheContent" xml:space="preserve">
     <value>对内容排序</value>

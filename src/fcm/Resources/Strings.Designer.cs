@@ -439,11 +439,11 @@ namespace fcm.Resources {
         }
         
         /// <summary>
-        ///   查找类似 Successfully deduplicated for {0}. 的本地化字符串。
+        ///   查找类似 Successfully deduplicated {0}. 的本地化字符串。
         /// </summary>
-        internal static string SuccessfullyDeduplicatedFor {
+        internal static string SuccessfullyDeduplicated {
             get {
-                return ResourceManager.GetString("SuccessfullyDeduplicatedFor", resourceCulture);
+                return ResourceManager.GetString("SuccessfullyDeduplicated", resourceCulture);
             }
         }
         
@@ -466,11 +466,20 @@ namespace fcm.Resources {
         }
         
         /// <summary>
-        ///   查找类似 Successfully sorted for {0}. 的本地化字符串。
+        ///   查找类似 Successfully sorted {0}. 的本地化字符串。
         /// </summary>
-        internal static string SuccessfullySortedFor {
+        internal static string SuccessfullySorted {
             get {
-                return ResourceManager.GetString("SuccessfullySortedFor", resourceCulture);
+                return ResourceManager.GetString("SuccessfullySorted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 The location of the files that need to be deduplicated; leave blank for the default location. 的本地化字符串。
+        /// </summary>
+        internal static string TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation {
+            get {
+                return ResourceManager.GetString("TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation", resourceCulture);
             }
         }
         
@@ -481,15 +490,6 @@ namespace fcm.Resources {
             get {
                 return ResourceManager.GetString("TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLoca" +
                         "tion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 The location of the files that need to be deduplicated; leave blank for the default location. 的本地化字符串。
-        /// </summary>
-        internal static string TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation {
-            get {
-                return ResourceManager.GetString("TheLocationOfTheFilesThatNeedToBeDeduplicated_LeaveBlankForTheDefaultLocation", resourceCulture);
             }
         }
         

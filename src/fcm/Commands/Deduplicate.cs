@@ -70,7 +70,7 @@ namespace fcm.Commands
                     );
 
                     isDeduplicated = true;
-                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.SuccessfullyDeduplicatedFor, Markup.Escape(filePath))}");
+                    AnsiConsole.MarkupLine($"{Print.MSHead.Success} {string.Format(Strings.SuccessfullyDeduplicated, Markup.Escape(filePath))}");
                 }
                 catch (Exception ex)
                 {

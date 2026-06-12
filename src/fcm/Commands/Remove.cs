@@ -13,6 +13,12 @@ namespace fcm.Commands
         /// <returns>退出代码</returns>
         internal static int RemoveFun(string[] funs)
         {
+            if (funs.Length == 0)
+            {
+                AnsiConsole.MarkupLine($"{Print.MSHead.Error} 请告诉我你要移除什么内容。");
+                return -1;
+            }
+            
             bool isRemoved = false;
             List<string> funFile = [.. File.ReadAllLines(Files.FUN_TXT_PATH, System.Text.Encoding.UTF8)];
 

@@ -15,7 +15,7 @@ namespace fcm.Commands
         {
             if (funs.Length == 0)
             {
-                AnsiConsole.MarkupLine($"{Print.MSHead.Error} 请告诉我你要添加什么内容。");
+                AnsiConsole.MarkupLine($"{Print.MSHead.Error} {Strings.PleaseTellMeWhatYouWantToAdd}");
                 return -1;
             }
             

@@ -315,4 +315,12 @@
     <value>The location of the files that need to have their content sorted; leave blank for the default location.</value>
     <comment>fcm sort 的参数说明</comment>
   </data>
+  <data name="PleaseTellMeWhatYouWantToAdd" xml:space="preserve">
+    <value>Please tell me what you want to add.</value>
+    <comment>fcm add 未传递参数时的错误信息</comment>
+  </data>
+  <data name="PleaseTellMeWhatYouWantToRemove" xml:space="preserve">
+    <value>Please tell me what you want to remove.</value>
+    <comment>fcm remove 未传递参数时的错误信息</comment>
+  </data>
 </root>

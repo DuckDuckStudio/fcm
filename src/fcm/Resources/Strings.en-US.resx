@@ -267,4 +267,10 @@
   <data name="TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation" xml:space="preserve">
     <value>The location of the files that need to have their content sorted; leave blank for the default location.</value>
   </data>
+  <data name="PleaseTellMeWhatYouWantToAdd" xml:space="preserve">
+    <value>Please tell me what you want to add.</value>
+  </data>
+  <data name="PleaseTellMeWhatYouWantToRemove" xml:space="preserve">
+    <value>Please tell me what you want to remove.</value>
+  </data>
 </root>

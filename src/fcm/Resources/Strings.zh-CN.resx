@@ -267,4 +267,10 @@
   <data name="TheLocationOfTheFilesThatNeedToHaveTheirContentSorted_LeaveBlankForTheDefaultLocation" xml:space="preserve">
     <value>需要对内容排序的文件的所在位置；留空为默认位置。</value>
   </data>
+  <data name="PleaseTellMeWhatYouWantToAdd" xml:space="preserve">
+    <value>请告诉我你要添加什么。</value>
+  </data>
+  <data name="PleaseTellMeWhatYouWantToRemove" xml:space="preserve">
+    <value>请告诉我你要移除什么。</value>
+  </data>
 </root>

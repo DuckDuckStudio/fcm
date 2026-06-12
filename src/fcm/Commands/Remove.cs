@@ -15,7 +15,7 @@ namespace fcm.Commands
         {
             if (funs.Length == 0)
             {
-                AnsiConsole.MarkupLine($"{Print.MSHead.Error} 请告诉我你要移除什么内容。");
+                AnsiConsole.MarkupLine($"{Print.MSHead.Error} {Strings.PleaseTellMeWhatYouWantToRemove}");
                 return -1;
             }
             

@@ -322,6 +322,24 @@ namespace fcm.Resources {
         }
         
         /// <summary>
+        ///   查找类似 Please tell me what you want to add. 的本地化字符串。
+        /// </summary>
+        internal static string PleaseTellMeWhatYouWantToAdd {
+            get {
+                return ResourceManager.GetString("PleaseTellMeWhatYouWantToAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Please tell me what you want to remove. 的本地化字符串。
+        /// </summary>
+        internal static string PleaseTellMeWhatYouWantToRemove {
+            get {
+                return ResourceManager.GetString("PleaseTellMeWhatYouWantToRemove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Please tell me what you want to search. 的本地化字符串。
         /// </summary>
         internal static string PleaseTellMeWhatYouWantToSearch {

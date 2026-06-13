@@ -13,6 +13,12 @@ namespace fcm.Commands
         /// <returns>退出代码</returns>
         internal static int AddFun(string[] funs)
         {
+            if (funs.Length == 0)
+            {
+                AnsiConsole.MarkupLine($"{Print.MSHead.Error} {Strings.PleaseTellMeWhatYouWantToAdd}");
+                return -1;
+            }
+            
             bool isAdded = false;
             List<string> funFile = [.. File.ReadAllLines(Files.FUN_TXT_PATH, System.Text.Encoding.UTF8)];
 

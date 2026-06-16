@@ -18,7 +18,7 @@ namespace fcm.Commands
                 AnsiConsole.MarkupLine($"{Print.MSHead.Error} {Strings.PleaseTellMeWhatYouWantToRemove}");
                 return -1;
             }
-            
+
             bool isRemoved = false;
             List<string> funFile = [.. File.ReadAllLines(Files.FUN_TXT_PATH, System.Text.Encoding.UTF8)];
 

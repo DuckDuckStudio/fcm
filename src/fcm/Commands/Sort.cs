@@ -16,7 +16,7 @@ namespace fcm.Commands
                 }
                 else
                 {
-                    return 1;
+                    return 2;
                 }
             }
 

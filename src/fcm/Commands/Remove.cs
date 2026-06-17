@@ -19,9 +19,14 @@ namespace fcm.Commands
                 return -1;
             }
 
-            bool isRemoved = false;
+            if (!Files.CheckFunTxt())
+            {
+                return 2;
+            }
+
             List<string> funFile = [.. File.ReadAllLines(Files.FUN_TXT_PATH, System.Text.Encoding.UTF8)];
 
+            bool isRemoved = false;
             foreach (string fun in funs)
             {
                 string normalizedfun = fun.Replace("\n", "\\n");

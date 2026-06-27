@@ -51,7 +51,7 @@ jobs:
         run: dotnet publish src/fcm/fcm.csproj --configuration Release
 
       - name: 打包安装程序
-        shell: bash
+        shell: pwsh
         run: |-
           if ((Get-Date) -le (Get-Date "2026-06-29")) {
             Write-Host "通过 GitHub API 下载中文翻译..."

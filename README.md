@@ -36,7 +36,7 @@ cd src/fcm/
 这里的示例使用 Release 生成配置，指定目标操作系统 linux，单文件，自包含运行时。
 
 ```shell
-dotnet publish fcm --configuration Release --os linux -p:PublishSingleFile=true --self-contained
+dotnet publish src/fcm/fcm.csproj --configuration Release --os linux -p:PublishSingleFile=true --self-contained
 ```
 
 #### 添加到 PATH
